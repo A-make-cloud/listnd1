@@ -1,0 +1,104 @@
+h1 {
+  padding: 0 4rem;
+  margin-bottom: 1rem;
+}
+
+li {
+  list-style: none;
+  font-size: 1.2em;
+}
+
+label {
+  margin-right: 5px;
+  text-transform: capitalize;
+}
+
+ul {
+  /* background-color: lightgray; */
+  padding: 0 4rem;
+  margin: 1rem 4rem;
+  border: 1px solid black;
+  border-radius: 15px;
+  width: 60vw;
+
+}
+
+.listUser {
+  /* background-color: lightgray; */
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.listUser img {
+  background-color: lightgray;
+  padding: 1rem;
+  margin-right: 1rem;
+  border-radius: 15px;
+
+
+}
+
+
+
+.myform {
+  text-transform: (-50%, -50%);
+  position: absolute;
+  left: 10%;
+  border: 1px solid black;
+  border-radius: 15px;
+  width: 60vw;
+
+}
+
+.menu {
+  /* background-color: lightgray; */
+  padding: 1rem 4rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.menu a {
+  font-size: 1.2em;
+  margin-right: 1vw;
+  padding: 8px;
+  background-color: blueviolet;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 10px;
+  border: none;
+}
+
+.bg-blueviolet {
+  font-size: 1.2em;
+  margin-right: 1vw;
+  padding: 8px;
+  background-color: blueviolet;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 10px;
+  border: none;
+
+}
+
+
+.list-errors {
+  /* background-color: lightgray; */
+  padding: 1rem;
+}
+
+.preview {
+  width: 5rem;
+  height: 5rem;
+  background-color: lightgrey;
+}
+
+#dropArea {
+  width: 10rem;
+  height: 3rem;
+  background-color: aquamarine;
+  border: 5px dashed black;
+}
+
+#dropArea.dragenter {
+  background-color: blue;
+}
